@@ -1,16 +1,61 @@
-# 🌦️ Simple Weather CLI App
+# 🌦️ Weather CLI App
 
-A simple command-line tool that fetches weather data using OpenWeatherMap API.
+A simple and clean command-line Python app that fetches real-time weather data using the OpenWeatherMap API.
 
-## 🔧 How to Use
+---
 
-1. Clone this repo
-2. Install dependencies: `pip install -r requirements.txt`
-3. Replace `API_KEY` in `weather.py` with your own OpenWeatherMap key
-4. Run the script: `python3 weather.py`
+## 🚀 Features
 
-## 🛠 Built With
+- Get current weather for any city
+- Displays temperature, condition, humidity, and wind speed
+- Uses OpenWeatherMap's public REST API
+- Built with Python and the `requests` library
+
+---
+
+## 🛠️ Technologies Used
 
 - Python 3
-- requests
+- requests library
 - OpenWeatherMap API
+- Command-line interface (CLI)
+
+---
+
+## 📦 Installation & Usage
+
+1. Clone this repository:
+
+```bash
+git clone https://github.com/farhan4381/weather-cli.git
+cd weather-cli
+
+2. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+
+
+3. Replace the API_KEY in weather.py with your OpenWeatherMap API key:
+
+API_KEY = "your_api_key_here"
+
+4. Run the app:
+
+python weather.py
+
+🧪 Example
+
+Enter city name: Berlin
+Weather in Berlin:
+Temperature: 18.5°C
+Condition: clear sky
+Humidity: 60%
+Wind Speed: 3.2 m/s
+
+📌 Note
+Make sure your API key is valid. If not, you may receive a 401 error.
+
+🙋‍♂️ Author
+Farhan Fazal
+Master's student in Data Science
